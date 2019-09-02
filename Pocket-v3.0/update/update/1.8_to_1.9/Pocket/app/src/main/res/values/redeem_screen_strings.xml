@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titles for Redeem Activity -->
+    <string-array name="payout_titles">
+
+        <item>Paypal</item>
+        <item>Paypal</item>
+        <item>Paytm</item>
+        <item>Paytm</item>
+        <item>Amazon</item>
+        <item>Google Play</item>
+
+    </string-array>
+
+    <!-- Description for Redeem Activity Titles -->
+    <string-array name="payout_description">
+
+        <item>1000 Points = $1 USD</item>
+        <item>5000 Points = $5 USD</item>
+        <item>1000 Points = 100 INR</item>
+        <item>5000 Points = 500 INR</item>
+        <item>3000 Points = $2.5 USD</item>
+        <item>9000 Points = $10 USD</item>
+
+    </string-array>
+
+</resources>

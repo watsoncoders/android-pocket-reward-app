@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket v3</string>
+
+    <string name="placeholder"> ------ </string>
+
+    <string name="offerWalls">OfferWalls</string>
+    <string name="api_offers">API Offers</string>
+
+    <string name="offer_details">Offer Details</string>
+    <string name="complete_offer">COMPLETE OFFER</string>
+    <string name="complete_later">i\'ll Complete Later</string>
+    <string name="earn">Earn</string>
+    <string name="on_this_offer">on this Offer</string>
+    <string name="waiting_for_completion">Waiting for Completion ..</string>
+    <string name="checking_offer_status">Checking offer status..</string>
+
+    <string name="offer_completed">you have Completed this Offer</string>
+    <string name="offer_rejected">Offer Rejected</string>
+    <string name="offer_processing">We are Processing this Offer</string>
+
+    <string name="home">Home</string>
+    <string name="instructions">Instructions</string>
+    <string name="refer">Refer &amp; Earn</string>
+    <string name="redeem">Redeem</string>
+    <string name="about">About Us</string>
+    <string name="transactions">Transactions</string>
+    <string name="share">Share This App</string>
+    <string name="rate_this_app">Rate The App</string>
+    <string name="policy">Privacy Policy</string>
+    <string name="contact">Contact Us</string>
+
+    <string name="loading">Loading ..</string>
+    <string name="no_transactions">No Transactions Found !</string>
+    <string name="nothing_found">Nothing Found Here !</string>
+
+    <string name="congratulations">Congratulations !!</string>
+    <string name="successfull_received">Successfully Received</string>
+    <string name="invitation_bonus_received">Invitation Bonus Received</string>
+    <string name="refer_bonus_received">Referral Bonus Received</string>
+
+
+    <string name="adnetwork_disabled">AdNetwork Disabled</string>
+    <string name="adnetwork_disabled_mesage">We have temporarly disabled this AdNetwork, please try again after some time</string>
+
+    <string name="success">Successful</string>
+    <string name="rejected">Rejected</string>
+    <string name="failed">Failed</string>
+    <string name="pending">Processing</string>
+
+    <string name="redeem_success_title"> Redeem Successful !</string>
+    <string name="redeem_recevied">Redeem request received for</string>
+    <string name="redeem_succes_message"> you can check Redeem Status in Transactions Tab</string>
+
+    <string name="error">Error..</string>
+    <string name="enter_something">Please Enter Something</string>
+
+    <!--  Currency -->
+    <string name="app_currency">Points</string>
+
+    <string name="updating_balance">updating Balance</string>
+    <string name="update_balance">update Balance</string>
+	
+    <!-- Share -->
+    <string name="share_text">Hello, look what a beautiful app that I found here:</string>
+
+    <!-- Refer -->
+    <string name="invite">Invite Friends</string>
+    <string name="get_bonus">Get Bonus</string>
+    <string name="tap_to_copy">Tap to copy</string>
+    <string name="refer_code">Your Referral Code is</string>
+    <string name="placeholder_referer"> Enter INVITATION Code</string>
+    <string name="referDescription">You and Your Friend both Get</string>
+    <string name="refer_code_copied">Refer Code Copied to Clipboard</string>
+
+    <string name="refer_text">by using my Refer Code : </string>
+    <string name="self_refer">You Cannot Refer YourSelf</string>
+    <string name="invalid_code">Invalid Code</string>
+    <string name="enter_valid_code">Please Enter Valid Code</string>
+    <string name="choose_one">Choose one</string>
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">551019701964537</string>
+    <string name="fb_login_protocol_scheme">fb551019701964537</string>
+
+    <!-- ADMOB AppID -->
+    <string name="admob_appId" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!-- ADMOB Banner -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- ADMOB Interstitial -->
+    <string name="admob_interstitial_delay">5000</string>
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--  General Texts  -->
+    <string name="click_back_again">Please click BACK again to exit</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="proceed">Proceed</string>
+    <string name="oops">Oops ..</string>
+    <string name="no_enough">No Enough</string>
+    <string name="to">to</string>
+    <string name="get">Get</string>
+
+    <integer name="daily_checkin_timer_size">26</integer>
+    <string name="bonus_taken">Bonus Taken Already ..</string>
+    <string name="try_after">Try again After SomeTime !!</string>
+    <string name="daily_reward_taken">Daily Reward Taken Already \n\n Try again after ..</string>
+    <string name="server_problem">server problem! Try Again after some time</string>
+
+    <string name="title_server_problem">Server not Responding !</string>
+    <string name="msg_server_problem">Looks like our Server not Responding, please try again after some time</string>
+
+    <string name="offerwall_not_loaded">Loading .. \n\n please try again After SomeTime !!</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_opened">The navigation drawer is opened</string>
+    <string name="navigation_drawer_closed">The navigation drawer is closed</string>
+    <string name="tag_nav_drawer_main_entry">nav_drawer_main_entry</string>
+
+    <!-- Login And SignUp -->
+     <string name="settings_file">account</string>
+    <string name="settings_account_id">account_id</string>
+    <string name="settings_account_username">account_username</string>
+    <string name="settings_account_access_token">access_token</string>
+
+    <string name="processing">Processing ..</string>
+    <string name="please_wait">Please wait ..</string>
+
+    <string name="update">Update</string>
+    <string name="update_app">Update App to Earn More</string>
+    <string name="update_app_description">Many more Earning Features Added.</string>
+
+    <string name="retry">Retry</string>
+    <string name="title_network_error">Network Not Detected !</string>
+    <string name="msg_network_error">Please check your Internet connection</string>
+    <string name="msg_account_blocked">This account is blocked by a moderator.</string>
+    <string name="msg_no_such_user_in_bd">No such user in database</string>
+    <string name="msg_password_reset_link_sent">A message with link to reset your password has been sent to your email.</string>
+
+    <string name="action_login">Log in</string>
+    <string name="action_signup">Sign up</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_forgot_password">Forgot password?</string>
+
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_login">Username</string>
+    <string name="placeholder_fullname">Fullname</string>
+    <string name="placeholder_email">Email</string>
+
+    <string name="error_field_empty">Required fields are empty</string>
+    <string name="error_wrong_format">Wrong format</string>
+    <string name="error_signin">Incorrect username or password</string>
+    <string name="error_login_taken">Username is already taken</string>
+    <string name="error_email_taken">Email is already registered</string>
+    <string name="please_login">please login ..</string>
+    <string name="error_email">Email invalid ..</string>
+    <string name="error_data_loading">When loading data error has occurred. Check your network connection.</string>
+    <string name="error_small_password">Minimum 6 characters</string>
+    <string name="error_small_username">Minimum 5 characters</string>
+
+
+    <string name="error_device_exists">Device Registered Already !</string>
+    <string name="error_device_exists_description">We allow one Account for one device, please login to your existing account ..</string>
+
+    <!-- App INTRO Titles & Description -->
+    <string name="slide_1_title">Earn Cupons !</string>
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_3_title">Hello Food!</string>
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_1_desc">Earn Cupons on every single service we offer!</string>
+    <string name="slide_2_desc">Earn movie tickets for your family and friends!</string>
+    <string name="slide_3_desc">The easiest way to Get food Discounts from your favourite restaurant!</string>
+    <string name="slide_4_desc">Get Discount on tickets of any transportation and travel the world!</string>
+
+    <!-- Instructions on How to use App -->
+    <string name="instructions_content" translatable="false">
+        <![CDATA[
+        <b>For Apps: </b><br/>
+        1. Select an app to install from one of our app list.<br/>
+        2. Click "Install" when on Google Play Store. <br/>
+        3. Wait until the app is Installed and open the app.<br/>
+        4. Browse the Installed app for about 30 Seconds.<br/>
+        5. If there was a Specific Task mentioned when selecting app, (For example, Register, Reach level 3, Browse for 5 min) do so, otherwise close the app.<br/>
+        6. Go back to the App Main Screen and tap "Refresh" if you have not been Rewarded yet.<br/>
+        7. If you still haven\'t\ been awarded, you will get your Reward within 1-5 minutes.<br/><br/>
+
+        This App <b>Source Code</b> is Selling on <b>CODYHUB</b> you can Buy it from : www.codyhub.com/item/android-rewards-app-pocket/<br/><br/>
+
+        &copy; 2018 <b> Pocket </b> by <b>DroidOXY</b> ]]>
+    </string>
+
+</resources>

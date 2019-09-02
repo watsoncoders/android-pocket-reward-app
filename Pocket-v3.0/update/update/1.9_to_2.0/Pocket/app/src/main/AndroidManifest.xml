@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.droidoxy.easymoneyrewards">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- AdxmiSdk Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions"/>
+    
+    <permission
+        android:name="com.droidoxy.easymoneyrewards.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.droidoxy.easymoneyrewards.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+         <!-- Below is optional -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="com.droidoxy.easymoneyrewards.app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.AppActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/AppLTheme"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.SignupActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name=".IntroActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Intro Activity">
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.MainActivity"
+            android:theme="@style/AppLTheme"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.EarningHistoryActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.RedeemHistoryActivity"
+            android:label="@string/app_name" >
+        </activity>
+   
+        <activity android:name="com.droidoxy.easymoneyrewards.RecoveryActivity" >
+        </activity>
+      
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.RedeemActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.InstructionsActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.AboutActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.ReferActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.droidoxy.easymoneyrewards.ErrorActivity"
+            android:label="Internet disConnected" >
+        </activity>
+
+        <!-- This activity is the activity that will be launched by the alarm -->
+
+
+        <!-- Necessary components that SuperSonic / Ironsource needs-->
+
+        <activity
+            android:name="com.ironsource.sdk.controller.ControllerActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" />
+
+			 
+	  <activity
+         android:name="com.playerize.superrewards.activities.SRWebViewActivity" 
+         android:screenOrientation="portrait"
+     />
+
+
+       <!-- Necessary components that AdxmiSDK needs -->
+        <activity
+            android:name="net.adxmi.android.AdBrowser"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="net.adxmi.android.AdService"
+            android:exported="false" >
+        </service>
+
+           <!-- Optional components that AdxmiSDK needs -->
+        <receiver android:name="net.adxmi.android.AdReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+         <!-- Component that rewarded ADs needs -->
+        <service
+            android:name="net.adxmi.android.ExpService"
+            android:exported="false" >
+        </service>
+
+        <!--  WhiteMobi Components -->
+
+        <activity android:name="com.white.mobi.sdk.WMOfferWall"/>
+
+        <!-- Component that firebase needs -->
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <!--Component that paly video ADs needs-->
+    <activity
+    android:name="net.adxmi.android.video.VideoActivity"
+    android:configChanges="keyboard|keyboardHidden|screenSize|orientation"
+    android:screenOrientation="landscape"
+    android:theme="@android:style/Theme.NoTitleBar" >
+    </activity>
+
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- the libraries that google play service configuration need to use -->
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Nativex Comnponents-->
+        <activity
+            android:name="com.nativex.monetization.activities.InterstitialActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            />
+        <activity
+            android:name="com.nativex.videoplayer.VideoActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <!-- END Nativex Comnponents  -->
+
+        <!-- Facebook components -->
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <!-- END Facebook components -->
+
+    </application>
+
+</manifest>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.droidoxy.easymoneyrewards.views.TextView_Lato
+        android:id="@+id/date"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11.7dp"
+        android:layout_marginStart="15.7dp"
+        android:layout_marginLeft="15.7dp"
+        android:layout_marginTop="11.7dp"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_size_12"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SingleItem"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/space18">
+
+            <ImageView
+                android:id="@+id/image"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/space16"
+                android:layout_marginLeft="@dimen/space16" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/space15"
+                android:layout_marginLeft="@dimen/space15"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.droidoxy.easymoneyrewards.views.TextView_Lato
+                    android:id="@+id/tnName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <com.droidoxy.easymoneyrewards.views.TextView_Lato
+                    android:id="@+id/tnType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space8"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_size_12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.droidoxy.easymoneyrewards.views.TextView_Lato
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/placeholder"
+                    android:textSize="@dimen/text_size_20" />
+
+                <com.droidoxy.easymoneyrewards.views.Textview_lato_thin
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/statusName"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_rect_bg"
+                    android:text="@string/placeholder"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_10"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/space18"
+            android:background="#ececec" />
+
+    </LinearLayout>
+
+</LinearLayout>

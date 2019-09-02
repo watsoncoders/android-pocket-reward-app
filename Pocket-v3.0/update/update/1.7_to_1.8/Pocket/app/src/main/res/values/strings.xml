@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket v1.8</string>
+
+    <string name="instructions">Instructions</string>
+    <string name="refer">Refer &amp; Earn</string>
+    <string name="redeem">Redeem</string>
+    <string name="about">About Us</string>
+    <string name="share">Share This App</string>
+    <string name="rate_this_app">Rate The App</string>
+    <string name="policy">Privacy Policy</string>
+    <string name="contact">Contact Us</string>
+
+    <string name="text_current_points">Points : </string>
+    <string name="Invite">Invite Friends</string>
+
+    <string name="refer_description">Refer &amp; Get 100 Points per friend!</string>
+
+    <string name="refer_sub_description">your friend gets 100 points too!</string>
+
+    <!--  ============== AD Mob Publusher ID =============  -->
+    <!-- AD Mob Banner -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- AD Mob interstitial -->
+    <string name="admob_interstitial_delay">5000</string>
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--  ==============   About Content =============  -->
+    <string name="version">Version 1.8</string>
+    <string name="email">support@droidoxy.com</string>
+
+    <!--  ============== General Texts =============  -->
+
+    <string name="permission_notice">Grant the permission, to start the Earning!</string>
+    <string name="permission_granted">The Permission has granted ! you can now start Earnings</string>
+    <string name="permission_not_granted">Permission denied,so you cannot start Earning</string>
+
+    <string name="click_back_again">Please click BACK again to exit</string>
+
+    <string name="daily_reward">Daily Checkin Credit</string>
+    <string name="SuperSonic_video_credit">SuperSonic Video Ad Credit</string>
+    <string name="nativex_credit">NativeX Reward</string>
+    <string name="OfferToro_credit">OfferToro offerwall Credit</string>
+    <string name="whitemobi_credit">WhiteMobi offerwall Credit</string>
+    <string name="SuperSonic_offerwall_credit">SuperSonic OfferWall Credit</string>
+    <string name="adscend_media_credit">Adscend Media Credit</string>
+    <string name="SuperRewards_credit">SuperRewards OfferWall Credit</string>
+    <string name="Adxmi_offerwall_credit">Adxmi OfferWall Credit</string>
+
+    <string name="no_videos_available">No Videos Available ! \n Try after SomeTime</string>
+    <string name="try_after">Try again After SomeTime!!</string>
+    <string name="daily_reward_taken">Taken Already..</string>
+    <string name="points">Points</string>
+    <string name="video_open_notice">Watch till the End to get Points</string>
+    <string name="points_received">Points Successfully Received</string>
+    <string name="great">Great !!</string>
+
+    <string name="server_problem">server problem! Try Again after some time</string>
+
+    <!--  ============== Login And SignUp  =============  -->
+     <string name="settings_file">account</string>
+    <string name="settings_account_id">account_id</string>
+    <string name="settings_account_username">account_username</string>
+    <string name="settings_account_access_token">access_token</string>
+
+    <string name="loading">Loading..</string>
+    <string name="msg_loading">Please wait...</string>
+    <string name="msg_network_error">Please check your Internet connection</string>
+    <string name="msg_account_blocked">This account is blocked by a moderator.</string>
+    <string name="msg_no_such_user_in_bd">No such user in database</string>
+    <string name="msg_password_reset_link_sent">A message with link to reset your password has been sent to your email.</string>
+
+    <string name="action_login">Log in</string>
+    <string name="action_signup">Sign up</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_forgot_password">Forgot password?</string>
+
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_login">Username</string>
+    <string name="placeholder_fullname">Fullname</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_referal"> Enter INVITATION Code</string>
+    <string name="get_points">Get Points</string>
+
+
+    <string name="error_field_empty">Required fields are empty</string>
+    <string name="error_wrong_format">Wrong format</string>
+    <string name="error_signin">Incorrect username or password</string>
+    <string name="error_login_taken">Username is already taken</string>
+    <string name="error_email_taken">Email is already registered</string>
+    <string name="error_device_exists">This Device is already registered, only one Account for one device !</string>
+    <string name="error_password">Invalid password.</string>
+    <string name="please_login">please login ...</string>
+    <string name="error_email">Email invalid.</string>
+    <string name="error_internet_connection">No internet connection</string>
+    <string name="error_data_loading">When loading data error has occurred. Check your network connection.</string>
+    <string name="error_small_password">Minimum 6 characters</string>
+    <string name="error_small_username">Minimum 5 characters</string>
+
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_main">General</string>
+
+    <string name="updating_points">updating Points</string>
+    <string name="initializing">Initializing</string>
+    <string name="show">Show</string>
+    <string name="load">Load</string>
+    <string name="rv">Rewarded Video</string>
+    <string name="ow">Offerwall</string>
+    <string name="is">Interstitial</string>
+    <string name="rewarded_dialog_header">Video Rewarded</string>
+    <string name="rewarded_dialog_message">You have been rewarded</string>
+    <string name="rvButtonState">rvButtonState</string>
+    <string name="isButtonState">isButtonState</string>
+    <string name="owButtonState">owButtonState</string>
+
+
+
+    <!-- Toolbar titles -->
+    <string name="toolbar_title_home">Home</string>
+    <string name="toolbar_title_explore">Explore</string>
+    <string name="other_activity">Other Activity</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_item_home">Home</string>
+    <string name="nav_drawer_item_explore">Explore</string>
+    <string name="nav_drawer_help_and_feedback"><![CDATA[Help & feedback]]></string>
+    <string name="nav_drawer_about">About</string>
+
+    <string name="navigation_drawer_opened">The navigation drawer is opened</string>
+    <string name="navigation_drawer_closed">The navigation drawer is closed</string>
+    <string name="tag_nav_drawer_main_entry">nav_drawer_main_entry</string>
+    <string name="tag_nav_drawer_special_entry">nav_drawer_special_entry</string>
+    <string name="tools_text_account_information_username">Username</string>
+    <string name="tools_text_account_information_email">user@mail.com</string>
+
+    <!-- Typeface names -->
+    <string name="typeface_roboto_regular">Roboto-Regular</string>
+    <string name="typeface_roboto_medium">Roboto-Medium</string>
+
+
+</resources>

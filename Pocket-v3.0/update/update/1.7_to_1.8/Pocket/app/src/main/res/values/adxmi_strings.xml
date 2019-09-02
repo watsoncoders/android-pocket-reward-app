@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="btn_show_video">Showing Video</string>
+      <string name="btn_show_Interstitial">Showing Interstitial</string>
+    <string name="btn_show_offerswall">Showing Rewarded Offerwall(Activity)</string>
+    <string name="btn_show_offerswall_dialog">Showing Rewarded Offerwall(Dialog)</string>
+    <string name="btn_show_diy_offerswall">Rewarded Offerwall Source Data Demo</string>
+    <string name="btn_diy_get_all">Request for All Types of ADs</string>
+    <string name="btn_diy_get_game">Request for Game-Type ADs</string>
+    <string name="btn_diy_get_app">Request for Application-Type ADs</string>
+    <string name="btn_diy_get_special_list">Request for Special Order List</string>
+    <string name="btn_diy_get_extra_task_list">Request for Extra Task List</string>
+    <string name="action_get_online_config">Request for Online Parameters</string>
+    <string name="action_check_offer_ad_config">Checking OfferAds Configuration</string>
+      <string name="action_check_video_ad_config">Checking VideoAds Configuration</string>
+    <string name="action_award_points">Reward 20 Currency Points</string>
+    <string name="action_spend_points">Consume 10 Currency Points</string>
+    <string name="title_diy_offer">Customized Rewarded Offerwall Demo</string>
+
+</resources>

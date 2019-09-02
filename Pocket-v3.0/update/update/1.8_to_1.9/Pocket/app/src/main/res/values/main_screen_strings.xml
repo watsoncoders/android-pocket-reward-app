@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titles for MainActivity -->
+    <string-array name="titles">
+
+        <item>Daily Check-In</item>
+        <item>SuperSonic Videos</item>
+        <item>NativeX Videos</item>
+        <item>OfferToro OfferWall</item>
+        <item>Fyber OfferWall</item>
+        <item>SuperSonic OfferWall</item>
+        <item>Adscend OfferWall</item>
+        <item>SuperRewards OfferWall</item>
+        <item>Adxmi OfferWall</item>
+        <item>Nativex OfferWall</item>
+        <item>White Mobi OfferWall</item>
+        <item>Redeem</item>
+        <item>Instructions</item>
+        <item>Refer &amp; Earn</item>
+        <item>About</item>
+
+    </string-array>
+
+
+    <!-- Description for MainActivity Titles -->
+    <string-array name="description">
+
+        <item>Open Daily and Earn 25 Points</item>
+        <item>Watch Videos to Earn Points</item>
+        <item>Watch Videos to Earn Points</item>
+        <item>Install Apps and Earn Points</item>
+        <item>Install Apps and Earn Points</item>
+        <item>Install Apps and Earn Points</item>
+        <item>Install Apps and Earn Points</item>
+        <item>Install Apps and Earn Points</item>
+        <item>Install Apps and Earn Points</item>
+        <item>Install Apps and Earn Points</item>
+        <item>Install Apps and Earn Points</item>
+        <item>Turn your Points into Cash</item>
+        <item>How to Earn Points</item>
+        <item>Refer Freiends &amp; Earn 100 Points</item>
+        <item>Advertise with Us</item>
+
+    </string-array>
+
+
+</resources>

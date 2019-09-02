@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/single_item"
+    android:padding="10dp"
+
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="center"/>
+
+    <com.droidoxy.easymoneyrewards.views.TextView_Lato
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/text_size_10"
+        android:textColor="@color/text_color"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/placeholder"/>
+
+    <com.droidoxy.easymoneyrewards.views.TextView_Lato
+        android:id="@+id/sub_title"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space5"
+        android:textSize="@dimen/text_size_10"
+        android:text="@string/placeholder"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+</LinearLayout>

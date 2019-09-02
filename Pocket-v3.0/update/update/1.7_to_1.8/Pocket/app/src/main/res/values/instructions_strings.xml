@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instructions_content" translatable="false"><![CDATA[
+    <b>For Apps: </b><br/>
+     1. Select an app to install from one of our app list.<br/>
+
+     2. Click "Install" when on Google Play Store. <br/>
+
+     3. Wait until the app is Installed and open the app.<br/>
+
+     4. Browse the Installed app for about 30 Seconds.<br/>
+
+     5. If there was a Specific Task mentioned when selecting app, (For example, Register, Reach level 3, Browse for 5 min) do so, otherwise close the app.<br/>
+
+     6. Go back to the Pocket Main Screen and tap "Refresh" if you have not been awarded with points yet.<br/>
+
+     7. If you still haven\'t\ been awarded, you will get your points within 1-5 minutes.
+    <br/><br/>
+
+    This program <b>Source Code</b> is Selling on <b>CODYHUB</b> you can Buy it from : www.codyhub.com/item/android-rewards-app-pocket/<br/><br/>
+
+    &copy; 2017 <b> Pocket </b> by <b>DroidOXY</b>.
+    ]]></string>
+
+</resources>

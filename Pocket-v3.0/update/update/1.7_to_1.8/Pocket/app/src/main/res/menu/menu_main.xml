@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+   
+  <item
+    android:id="@+id/sync"
+    android:icon="@drawable/sync"
+    android:title="Reload"
+    android:gravity="center"
+    app:showAsAction="always"
+    />
+
+  <item
+    android:id="@+id/points"
+    android:icon="@null"
+    android:title="Points : Loading.."
+    android:gravity="center"
+    app:showAsAction="always"
+    />
+</menu>

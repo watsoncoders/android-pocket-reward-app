@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "830402320972",
+    "firebase_url": "https://easymoneyrewards-97c66.firebaseio.com",
+    "project_id": "easymoneyrewards-97c66",
+    "storage_bucket": "easymoneyrewards-97c66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830402320972:android:d3022bb634ee226d",
+        "android_client_info": {
+          "package_name": "com.droidoxy.easymoneyrewards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830402320972-2vhktate2htl63115568trhclsvffilo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.droidoxy.easymoneyrewards",
+            "certificate_hash": "a573f8cc57c4d1e8aef48beed5e086d8534f32a1"
+          }
+        },
+        {
+          "client_id": "830402320972-f34rk2or5f8nuer9snb1os779ge3iips.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBot3H75DFM90wDuPNPMNCgkZM8YgprPGQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830402320972-f34rk2or5f8nuer9snb1os779ge3iips.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

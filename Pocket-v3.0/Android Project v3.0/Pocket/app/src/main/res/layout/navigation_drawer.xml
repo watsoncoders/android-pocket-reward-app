@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.droidoxy.easymoneyrewards.views.ScrimInsetsFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawer_Layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_gravity="start"
+    app:insetForeground="@color/nav_foreground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space120"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            tools:layout_height="@dimen/space120">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/side_nav_bar"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/navigation_drawer_account_information"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/space100"
+                    android:layout_alignParentBottom="false"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="35dp"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nav_bar_display_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_20"
+                        android:textColor="@color/white"
+                        android:text="@string/placeholder"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                    <TextView
+                        android:id="@+id/nav_bar_display_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_14"
+                        android:textColor="@color/white"
+                        android:text="@string/placeholder"
+                        tools:fontFamily="sans-serif-medium"
+                        android:paddingTop="@dimen/space10"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/space64"
+                    android:layout_height="@dimen/space64"
+                    android:visibility="gone"
+                    android:layout_above="@id/navigation_drawer_account_information"
+                    android:src="@drawable/ic_instructions" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <!-- Drawer items -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/navigation_drawer_background"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/space8"
+            android:paddingTop="@dimen/space8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/instructions"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_instructions"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/instructions"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/refer"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_refer"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/refer"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/redeem"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_redeem"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/redeem"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/nav_transactions"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_transactions"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/transactions"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/about"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_about"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/about"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+                <View
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space1"
+                    android:layout_marginBottom="@dimen/space8"
+                    android:layout_marginTop="@dimen/space8"
+                    android:background="@color/nav_divider"/>
+
+                <FrameLayout
+                    android:id="@+id/nav_share"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_share"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/share"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/rate_this_app"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_rate"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/rate_this_app"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/policy"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_policy"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/policy"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/contact"
+                    style="@style/NavDrawerRowLayout">
+
+                    <com.droidoxy.easymoneyrewards.views.TintOnStateImageView
+                        style="@style/NavDrawerRowItemIcon"
+                        android:src="@drawable/ic_contact"
+                        tools:ignore="ContentDescription"/>
+
+                    <TextView
+                        style="@style/NavDrawerRowItemText"
+                        android:text="@string/contact"
+                        tools:fontFamily="sans-serif-medium"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</com.droidoxy.easymoneyrewards.views.ScrimInsetsFrameLayout>

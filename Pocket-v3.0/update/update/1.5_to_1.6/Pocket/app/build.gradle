@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.droidoxy.easymoneyrewards"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 6
+        versionName "1.7"
+
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+//Include Supersonic maven repositories
+repositories {
+    maven {
+        url "https://dl.bintray.com/supersonic/android-sdk"
+    }
+    maven {
+        url  "http://dl.bintray.com/supersonic/android-adapters"
+    }
+    maven {
+        url  "https://dl.bintray.com/supersonic/android-adapters"
+    }
+    maven {
+        url "https://bitbucket.org/adscend/androidsdk/raw/master/"
+    }
+    mavenCentral()
+}
+dependencies {
+    compile 'com.supersonic.sdk:mediationsdk:6.4.17@jar'
+    compile 'com.supersonic.adapters:tapjoyadapter:2.1.1@jar'
+    compile 'com.adscendmedia.sdk:adscendmedia:2.1.11'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.google.android.gms:play-services:9.6.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.mcxiaoke.volley:library:1.0.18'
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.google.android.gms:play-services-gcm:9.6.1'
+    compile 'com.google.android.gms:play-services-ads:9.6.1'
+    compile 'com.google.firebase:firebase-ads:9.6.1'
+
+    compile 'com.github.paolorotolo:appintro:4.1.0'
+
+    compile 'com.google.code.gson:gson:2.7'
+
+
+    // MultiDex Dependency
+    compile 'com.android.support:multidex:1.0.1'
+
+    compile 'com.google.firebase:firebase-messaging:9.0.2'
+
+    // slider libraries
+    compile "com.android.support:support-v4:25.3.1"
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-ads:9.6.1'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-auth:9.6.1'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-gcm:9.6.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

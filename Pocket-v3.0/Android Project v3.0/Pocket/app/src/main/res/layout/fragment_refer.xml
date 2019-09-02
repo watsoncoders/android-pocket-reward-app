@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:windowSoftInputMode="stateHidden">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/space5">
+
+            <LinearLayout
+                android:id="@+id/inviteLayout"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space30"
+                android:layout_marginLeft="@dimen/space50"
+                android:layout_marginRight="@dimen/space50"
+                android:layout_marginBottom="@dimen/space50"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/referCodeEntry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/placeholder_referer"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:maxLength="10" />
+
+                <Button
+                    android:id="@+id/submitReferCodeEntry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space10"
+                    android:background="@drawable/button_primary"
+                    android:text="@string/get_bonus"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/referTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space50"
+                android:textSize="@dimen/text_size_20"
+                android:textColor="@color/black"
+                android:text="@string/refer" />
+
+            <TextView
+                android:id="@+id/referDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space10"
+                android:textSize="@dimen/text_size_14"
+                android:text="@string/referDescription"
+                android:textColor="@color/text_color"
+                android:layout_marginBottom="@dimen/space50" />
+
+            <LinearLayout
+                android:id="@+id/referCodeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/referCodeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/refer_code"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_12"
+                    android:layout_marginTop="@dimen/space50" />
+
+                <TextView
+                    android:id="@+id/referCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_30"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/space5" />
+
+                <TextView
+                    android:id="@+id/tapToCopy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tap_to_copy"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_10"
+                    android:layout_marginTop="@dimen/space5"
+                    android:layout_marginBottom="@dimen/space50" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/referButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/space100"
+                android:layout_marginLeft="@dimen/space50"
+                android:layout_marginRight="@dimen/space50"
+                android:layout_marginBottom="@dimen/space50"
+                android:background="@drawable/button_primary"
+                android:text="@string/invite"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

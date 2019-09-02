@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="@dimen/space5">
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_30" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:src="@drawable/splash_logo"
+            android:layout_margin="@dimen/space20"
+            android:layout_width="@dimen/space200"
+            android:layout_height="@dimen/space200"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space10"
+            android:textColor="@color/text_color"
+            android:text="@string/placeholder"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space10"
+            android:text="@string/placeholder"
+            android:textColor="@color/text_color" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space10"
+            android:text="@string/placeholder"
+            android:textColor="@color/text_color" />
+
+    </LinearLayout>
+
+</LinearLayout>

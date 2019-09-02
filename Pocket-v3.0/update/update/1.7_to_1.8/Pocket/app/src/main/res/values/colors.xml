@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Standard version // Again Blue version -->
+    <color name="colorPrimary">#0F4671</color>
+    <color name="colorPrimaryDark">#204062</color>
+    <color name="colorAccent">#206784</color>
+	
+    <!--Pink version
+    <color name="colorPrimary">#ef4056</color>
+    <color name="colorPrimaryDark">#ac2435</color>
+    <color name="colorAccent">#50bcb6</color>
+    -->
+	
+    <!-- Dark Blue version
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+	-->
+
+    <!-- SkyBlue version
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5252</color>
+	-->
+
+    <!-- Red version  
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#FF5252</color>
+    <color name="colorAccent">#448AFF</color>    
+    -->
+
+    <!-- Green version 
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#616161</color>	
+	-->
+
+    <!-- Grey version
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#546E7A</color>
+    <color name="colorAccent">#EF6C00</color>
+       -->
+
+	<!-- Brown version
+	<color name="colorPrimary">#795548</color>
+	<color name="colorPrimaryDark">#5d4037</color>
+	<color name="colorAccent">#d7ccc8</color>
+    -->
+	<!-- lime version
+	<color name="colorPrimary">#cddc39</color>
+	<color name="colorPrimaryDark">#afb42b</color>
+	<color name="colorAccent">#f0f4c3</color>
+     -->
+
+	<!-- Orange version
+	<color name="colorPrimary">#ff9800</color>
+	<color name="colorPrimaryDark">#f57c00</color>
+	<color name="colorAccent">#ffe0b2</color>
+    -->
+
+	<!-- Purple version
+	<color name="colorPrimary">#9c27b0</color>
+	<color name="colorPrimaryDark">#7b1fa2</color>
+	<color name="colorAccent">#e1bee7</color>
+    -->
+
+	<!-- Teal version
+	<color name="colorPrimary">#009688</color>
+	<color name="colorPrimaryDark">#00796b</color>
+	<color name="colorAccent">#b2dfdb</color>
+    -->
+
+	<!-- Violet version
+	<color name="colorPrimary">#673ab7</color>
+	<color name="colorPrimaryDark">#512da8</color>
+	<color name="colorAccent">#d1c4e9</color>
+    -->
+
+	<!-- Do Not Modify Below Default Values-->
+    <color name="text_color">#525252</color>
+    <color name="background_color">#f2f2f2</color>
+
+    <color name="app_status_not_install">#FF0000</color>
+    <color name="app_status_have_extra_task">#BA7134</color>
+    <color name="app_status_update">#004080</color>
+    <color name="app_status_done">#1C4976</color>
+    <color name="app_status_downloading">#1C4226</color>
+    <color name="app_status_already_download">#024569</color>
+    
+    <color name="task_status_cando_text_color">#000000</color>
+    <color name="task_status_cannotdo_text_color">#A2A2A2</color>
+    <color name="task_status_not_complete_text_color">#BBBBBB</color>
+    <color name="task_status_text_color">#CECFCF</color>
+
+    <!-- Do Not Modify Below Default Values-->
+    <color name="home_bg_color">#F4F4F4</color>
+    <color name="app_bg">#0F4671</color>
+    <color name="actionbar_bg">#204062</color>
+    <color name="gray">#808285</color>
+    <color name="black">#000000</color>
+    <color name="answer_text">#ff222222</color>
+    <color name="gray_bg">#E5E5E5</color>
+    <color name="signup_button_text">#3D678C</color>
+    <color name="gray_text">#757575</color>
+    <color name="light_gray">#ffd9d9d9</color>
+    <color name="dark_blue">#204062</color>
+    <color name="light_blue">#34B5E5</color>
+    <color name="gray_border">#D3D3D3</color>
+    <color name="content_page">#F2F2F2</color>
+    <color name="gray_button_text_color">#288EC1</color>
+    <color name="toolBar">#204062</color>
+    <color name="hashTag">#5BCFF2</color>
+
+    <color name="question_list_divider">#d9d9d9</color>
+    <color name="question_row_start_color">#ffffff</color>
+    <color name="question_row_end_color">#ffffff</color>
+    <color name="question_row_hover_start_color">#ebeef0</color>
+    <color name="question_row_hover_end_color">#ebeef0</color>
+
+    <color name="drawer_divider">#262A2E</color>
+    <color name="drawer_bg">#212429</color>
+    <color name="drawer_item_bg">#212429</color>
+    <color name="drawer_item_select_bg">#32394A</color>
+    <color name="drawer_item_text">#D1D1D1</color>
+
+
+    <!-- Text -->
+    <color name="text_black_100">#000000</color>
+    <color name="text_black_text_87">#DE000000</color>
+    <color name="text_black_secondary_icon_54">#8A000000</color>
+    <color name="text_black_disable_hint_26">#42000000</color>
+    <color name="text_black_divider_12">#1F000000</color>
+
+    <color name="text_white_text_icons_100">#FFFFFF</color>
+    <color name="text_white_secondary_70">#B3FFFFFF</color>
+    <color name="text_white_disabled_hint_30">#4DFFFFFF</color>
+    <color name="text_white_divider_12">#1FFFFFFF</color>
+
+    <!-- NavigationDrawer -->
+    <color name="navigation_drawer_background">#ffffffff</color>
+    <color name="nav_drawer_item_icon_normal">@color/grey_600</color>
+    <color name="nav_drawer_item_icon_selected">@color/green_500</color>
+    <color name="nav_drawer_item_text_selected">#4000</color>
+    <color name="nav_drawer_section_subheader">@color/text_black_secondary_icon_54</color>
+    <color name="nav_drawer_inset_foreground">#4000</color>
+
+    <color name="nav_drawer_row_item_unselected">@color/white</color>
+    <color name="nav_drawer_row_item_selected">@color/grey_200</color>
+    <color name="nav_drawer_row_item_pressed">@color/grey_400</color>
+
+
+    <!-- App Main Palette -->
+    <color name="primary">@color/green_500</color>
+    <color name="primaryDark">@color/green_700</color>
+    <color name="textPrimary">@color/text_white_text_icons_100</color>
+
+    <color name="green_700">#388e3c</color>
+
+    <!-- Green -->
+    <color name="green_500">#4caf50</color>
+
+    <color name="tabsScrollColor">#d9d9d9</color>
+
+    <!-- Grey -->
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_600">#757575</color>
+
+    <!-- Blue -->
+    <color name="blue_500">#2196f3</color>
+
+    <!-- Amber -->
+    <color name="amber_500">#ffc107</color>
+
+    <!-- Black and White -->
+    <color name="white">#FFFFFF</color>
+    <color name="black_alpha_50">#80000000</color>
+
+
+    <color name="red_color">#E53935</color>
+    <color name="green_color">#7CB342</color>
+
+    <color name="top_item">#a6c</color>
+    <color name="bottom_item">#f44</color>
+    <color name="bottom_item_alt">#c00</color>
+
+    <color name="divider">#e1e4e6</color>
+    <color name="stroke">#d8dbe2</color>
+
+    <color name="green">#54b952</color>
+    <color name="textOtp">#515b6e</color>
+    <color name="sub_text">#98a1b3</color>
+
+    <color name="colorGray">#495C67</color>
+    <color name="colorOrange">#F68159</color>
+    <color name="colorLightGray">#a6abae</color>
+
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:windowSoftInputMode="stateHidden">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="1dp"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space20"
+        android:paddingTop="@dimen/space20">
+
+        <com.droidoxy.easymoneyrewards.views.TextView_Lato
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transactions"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold"
+            android:textColor="@color/trans_text_black"
+            android:layout_marginLeft="@dimen/space20"
+            android:layout_marginStart="@dimen/space20"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/emptyViews"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/emptyImage"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/space150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"/>
+
+                <TextView
+                    android:id="@+id/empty"
+                    android:text="@string/loading"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/space150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar"
+                    android:indeterminateTint="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recentTransactions"
+                android:nestedScrollingEnabled="false"
+                android:layout_below="@+id/emptyViews"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg_color"
+                android:clipToPadding="false" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
